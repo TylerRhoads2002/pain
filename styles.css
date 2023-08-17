@@ -1,0 +1,79 @@
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(232, 232, 164)
+    
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+/* nav ul {
+    list-style: none;
+} */
+
+/* nav li {
+    display: inline-block;
+    margin-right: 20px;
+} */
+
+/* nav a {
+    text-decoration: none;
+    color: #fff;
+} */
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 70%;
+    height: 70%;
+}
+
+.tableau-graph {
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+#resume-section {
+    background-color: #f9f9f9;
+    padding: 20px;
+}
+.resume-link {
+    margin: 10px;
+}
+
+.resume-link a {
+    font-size: 1.2em;
+    text-decoration: none;
+    color: #fff; /* Change the text color to white */
+    transition: font-size 0.3s;
+}
+
+.resume-link a:hover {
+    font-size: 1.3em;
+    font-weight: bold;
+}
